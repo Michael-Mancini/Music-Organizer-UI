@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		#xs-s{
+			display: none;
+		}
+
+		#createBox-r{
+			text-align: center;
+			padding: 10px;
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+		#create-submit{
+			width: 50%;
+			margin-top: 10px;
+		}
+
+		@media only screen and (max-width: 768px){
+			#lgroup{
+				display: none;
+			}
+			#xs-s{
+				display: block;
+			}
+			#md-l-xl{
+				display: none;
+			}
+		}
+
+		#cdis{
+			display: none;
+		}
+
+		@media only screen and (max-width: 575px){
+			#cdis{
+				display: inline-block;
+				padding-left: 10px;
+				font-size: 1.2em;
+			}
+		}
+
+	</style>
+	<title>Mike's Music</title>
+</head>
+<body id="home">
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">Music.io</a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav ml-auto" style="float: right;">
+					<li class="nav-item">
+						<a href="collection.html" class="nav-link ml-5"><i class="fa fa-music fa-2x"></i><span id="cdis"> Collection</span></a>
+					</li>
+					<li class="nav-item">
+						<a href="favorites.html" class="nav-link ml-5"><i class="fa fa-star fa-2x"></i><span id="cdis"> Favorites</span></a>
+					</li>
+					<li class="nav-item">
+						<a href="add.html" class="nav-link ml-5"><i class="fa fa-plus fa-2x"></i><span id="cdis"> Add</span></a>
+					</li>
+					<li class="nav-item dropdown">
+						<a href="#" class="nav-link dropdown-toggle ml-5" id="navbarDropdownMenuLink" data-toggle="dropdown"><i class="fa fa-user-circle-o fa-2x"></i></a>
+						<div class="dropdown-menu dropdown-menu-right">
+							<a href="settings.html" class="dropdown-item">Settings</a>
+							<a href="login.html" class="dropdown-item">Log In</a>
+							<a href="feedback.html" class="dropdown-item">Report Bug</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav><br>
+
+	<div id="xs-s" class="container">
+		<img class="img-fluid rounded" src="img/mainPic.png">
+		<br><br>
+		<h3>Music Organizer</h3>
+		<p>The inspiration for this website came from a desire to view all of the music I listen to in one place. The goal is to create a pleasant viewing experience that encourages artwork appreciation and organization of not just the music in my library, but old and new music that I have yet to purchase. There are no download links, just YouTube and BandCamp links to listen to everything for free. The open database I created allows for my friends and I to contribute our own music compositions as well as whatever we are listening to, to grow a massive collection for the community.</p>
+		<div id="createBox-r" class="bg-dark text-white rounded">
+			<h3>Create a free account!</h3>
+			<form>
+				<div class="form-group">
+					<input type="email" id="email" class="form-control" placeholder="Enter Email">
+					<input type="password" id="password" name="password" class="form-control" placeholder="Choose a password">
+					<button type="submit" id="create-submit" class="btn btn-primary">Join!</button>
+				</div>
+			</form>
+		</div>
+		<br>
+		<div class="descriptions">
+			<h3><i class="fa fa-music"></i> View collection</h3>
+			<p>This is where you can see all of the music in our database. You can search or sort by Artist, Release Date, or New Additions made by other users. This is available without an account and by far the most elegant music visualization tool on the web.</p>
+			<hr>
+			<h3><i class="fa fa-star"></i> Favorites</h3>
+			<p>If you see something in the collection that you like, you can simply add it to your favorites by clicking the star! You can view just your favorited music in the "<i class="fa fa-star"></i>" tab and sort by our various filters. This feature is only available with a free account, so sign up!</p>
+			<hr>
+			<h3><i class="fa fa-plus"></i> Add Albums</h3>
+			<p>This is where you can add any album to our collection. This is one of our coolest features because anybody can contribute their own music or their favorite music to be seen by everyone! Be prepared to enter some meta-data when you submit, and if some is incorrect a live human will fix all the errors. This is also only availble when signed in.</p>
+			<hr>
+			<h3><i class="fa fa-user-circle-o"></i> Social</h3>
+			<p>This functionality is not yet available.</p>
+			<hr>
+		</div>
+	</div><!-- End of responsive div -->
+
+	<div id="md-l-xl">
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-6">
+				<img class="img-fluid rounded" src="img/mainPic.png">
+			</div>
+			<div class="col-6 align-middle">
+				<h2>Music Organizer</h2>
+				<p>The inspiration for this website came from a desire to view all of the music I listen to in one place. The goal is to create a pleasant viewing experience that encourages artwork appreciation and organization of not just the music in my library, but old and new music that I have yet to purchase. There are no download links, just YouTube and BandCamp links to listen to everything for free. The open database I created allows for my friends and I to contribute our own music compositions as well as whatever we are listening to, to grow a massive collection for the community.</p>
+			</div>
+		</div><!-- End Row -->
+		<br>
+		<br>
+		<div id="createAcct" class="create bg-dark text-white">
+			<h2>Create a free account!</h2>
+			<form>
+				<div class="form-row">
+					<div class="col-5">
+						<input type="email" name="email" class="form-control" placeholder="Enter email">
+					</div>
+					<div class="col-5">
+						<input type="password" name="password" class="form-control" placeholder="Choose a password">
+					</div>
+					<div class="col-2">
+						<button type="submit" class="btn btn-primary btn-block">Join!</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<br><br>
+
+	<div class="container">
+		<div class="row">
+			<div id="lgroup" class="col-3">
+			<div class="list-group">
+				<a class="list-group-item list-group-item-action" href="#list-item-1"><i class="fa fa-music"></i> View Collection</a>
+				<a class="list-group-item list-group-item-action" href="#list-item-2"><i class="fa fa-star"></i> Favorites</a>
+				<a class="list-group-item list-group-item-action" href="#list-item-3"><i class="fa fa-plus"></i> Add Albums</a>
+				<a class="list-group-item list-group-item-action" href="#list-item-4">Social</a>
+			</div>
+			</div>
+			<div class="col">
+			<div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+				<h4 id="list-item-1">View Collection</h4>
+				<p>This is where you can see all of the music in our database. You can search or sort by Artist, Release Date, or New Additions made by other users. This is available without an account and by far the most elegant music visualization tool on the web.</p>
+				<hr>
+				<h4 id="list-item-2">Favorites</h4>
+				<p>If you see something in the collection that you like, you can simply add it to your favorites by clicking the star! You can view just your favorited music in the "<i class="fa fa-star"></i>" tab and sort by our various filters. This feature is only available with a free account, so sign up!</p>
+				<hr>
+				<h4 id="list-item-3">Add Albums</h4>
+				<p>This is where you can add any album to our collection. This is one of our coolest features because anybody can contribute their own music or their favorite music to be seen by everyone! Be prepared to enter some meta-data when you submit, and if some is incorrect a live human will fix all the errors. This is also only availble when signed in.</p>
+				<hr>
+				<h4 id="list-item-4">Social</h4>
+				<p>This functionality is not yet available.</p>
+				<hr>
+			</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<footer class="bg-dark text-white">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center py-4">
+					<h6>Michael's Music Organizer Copyright &copy; 2017</h6>
+					<button class="btn btn-light btn-sm">Contact</button>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</html>

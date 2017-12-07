@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Music</title>
+    <style type="text/css">
+        body{
+            font-family: arial;
+            font-size: 18px;
+            background-color: #f4f4f4;
+            line-height: 1.5em;
+        }
+        header{
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 4px #000 solid;
+            margin-bottom: 10px;
+        }
+        #container{
+            width: 90%;
+            margin: auto;
+            padding: 10px;
+        }
+        #result{
+            position: relative;
+        }
+        ul li{
+            list-style: none;
+            display: inline-block;
+            text-align: center;
+            font-size: 14px;
+            padding: 5px;
+             position: relative;
+        }
+        ul li img{
+            height: 200px;
+            width: 200px;
+            box-shadow: 13px 14px 15px -1px rgba(0,0,0,0.75);
+        }
+        ul li p{
+            padding: 3px;
+            margin: 0;
+        }
+        *{
+        }
+        #particles-js{
+            position: absolute;
+            background-color: #4d4d4d;
+            z-index: -1;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <header>
+        <h2>Michael's Music Organization Tool</h2>
+    </header>
+    <div class="container">
+        <form id="form">
+            <label>Artist</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label>Album</label><br>
+            <input type="text" id="albumTitle" name="albumTitle"><br>
+            <label>Year</label><br>
+            <input type="text" id="year" name="year"><br>
+            <label>Art</label><br>
+            <input type="text" id="art" name="art"><br>
+            <input type="submit" value="Submit"><br>
+        </form>
+    <hr>
+    <div id="particles-js">
+    <div id="result"></div>
+    </div>
+
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $.getJSON('artists.json', function(data){
+            $.each(data, function(i, val,){
+                $('#result').append('<h3>'+val.artist+'</h3><ul class="music"></ul>');
+                $.each(val.albums, function(index, value){
+                    $('#result ul.music:last').append('<li><p>'+value.albumTitle+'</p><img src="'+value.art+'"></li>');
+                });
+            });
+        });
+    });
+
+    particlesJS.load('particles-js', 'particles.json', function(){
+        console.log('particles.json loaded...');
+    });
+
+
+</script>
+</html>

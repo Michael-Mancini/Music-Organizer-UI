@@ -1,0 +1,147 @@
+[
+	{
+		"artist":"Veil of Maya",
+		"albums":[
+			{
+				"albumTitle":"The Common Man's Collapse",
+				"year":2008,
+				"art":"https://coverartarchive.org/release-group/1def4baa-bc04-3488-8eba-85a0a12ada7a/front-250.jpg"
+			},
+			{
+				"albumTitle":"[id]",
+				"year":2010,
+				"art":"https://coverartarchive.org/release-group/f1aa4d24-71e0-4c79-bcc3-93fdee7076a6/front-250.jpg"
+			},
+			{
+				"albumTitle":"Eclipse",
+				"year":2012,
+				"art":"https://coverartarchive.org/release-group/fc242323-2aca-4602-9ede-cc02cd7b7460/front-250.jpg"
+			},
+			{
+				"albumTitle":"Matriarch",
+				"year":2015,
+				"art":"https://coverartarchive.org/release-group/1ba7943c-336e-4b3a-8a53-bc0034b51d2b/front-250.jpg"
+			}
+		]
+	},
+	{
+		"artist":"The Contortionist",
+		"albums":[
+			{
+				"albumTitle":"Exoplanet",
+				"year":2010,
+				"art":"https://coverartarchive.org/release-group/767aa305-7add-4143-a124-4133dae37351/front-250.jpg"
+			},
+			{
+				"albumTitle":"Intrinsic",
+				"year":2012,
+				"art":"https://coverartarchive.org/release-group/9f87c5a0-4796-446f-a226-f60faa375520/front-250.jpg"
+			},
+			{
+				"albumTitle":"Language",
+				"year":2014,
+				"art":"https://coverartarchive.org/release-group/d0f9bba2-93c5-4512-b9a1-c09b87c0f2f9/front-250.jpg"
+			},
+			{
+				"albumTitle":"Clairvoyant",
+				"year":2017,
+				"art":"https://coverartarchive.org/release-group/1903c3ce-030f-4e6f-a913-ba4fed02d3e9/front-250.jpg"
+			}
+		]
+	},
+	{
+		"artist":"Reflections",
+		"albums":[
+			{
+				"albumTitle":"The Fantasy Effect",
+				"year":2012,
+				"art":"https://coverartarchive.org/release-group/d50f49e3-515a-4b2c-804d-69aebf47b619/front-250.jpg"
+			},
+			{
+				"albumTitle":"Exi(s)t",
+				"year":2013,
+				"art":"https://images-na.ssl-images-amazon.com/images/I/51W4uo7kVeL.jpg"
+			},
+			{
+				"albumTitle":"The Color Clear",
+				"year":2015,
+				"art":"https://images-na.ssl-images-amazon.com/images/I/61n7ZTa-jXL.jpg"
+			}
+		]
+	},
+	{
+		"artist":"Counterparts",
+		"albums":[
+			{
+				"albumTitle":"Prophets",
+				"year":2010,
+				"art":"https://upload.wikimedia.org/wikipedia/en/2/20/CounterpartsProphets.jpg"
+			},
+			{
+				"albumTitle":"The Current Will Carry Us",
+				"year":2011,
+				"art":"https://images.genius.com/8b4df4a2802d20a94474cb5e33712c3d.900x900x1.jpg"
+			},
+			{
+				"albumTitle":"The Difference Between Hell and Home",
+				"year":2013,
+				"art":"https://upload.wikimedia.org/wikipedia/en/f/f4/The_Difference_Between_Hell_and_Home.jpg"
+			},
+			{
+				"albumTitle":"Tragedy Will Find Us",
+				"year":2015,
+				"art":"https://f4.bcbits.com/img/a0684925133_10.jpg"
+			},
+			{
+				"albumTitle":"You're Not You Anymore",
+				"year":2017,
+				"art":"http://exclaim.ca/images/NotYouArt.jpg"
+			}
+		]
+	},
+	{
+		"artist":"Modern Day Babylon",
+		"albums":[
+			{
+				"albumTitle":"The Manipulation Theory",
+				"year":2011,
+				"art":"https://f4.bcbits.com/img/a3165286985_10.jpg"
+			},
+			{
+				"albumTitle":"Travelers",
+				"year":2013,
+				"art":"https://f4.bcbits.com/img/a3787921427_10.jpg"
+			},
+			{
+				"albumTitle":"The Ocean Atlas",
+				"year":2015,
+				"art":"https://f4.bcbits.com/img/a2337420285_10.jpg"
+			}
+		]
+	},
+	{
+		"artist":"Misery Signals",
+		"albums":[
+			{
+				"albumTitle":"Of Malice and the Magnum Heart",
+				"year":2004,
+				"art":"https://upload.wikimedia.org/wikipedia/en/3/33/Ofmalice.jpg"
+			},
+			{
+				"albumTitle":"Mirrors",
+				"year":2006,
+				"art":"https://upload.wikimedia.org/wikipedia/en/7/75/Misery_signals-mirrors.jpg"
+			},
+			{
+				"albumTitle":"Controller",
+				"year":2008,
+				"art":"https://upload.wikimedia.org/wikipedia/en/f/f2/MS-Controller.jpg"
+			},
+			{
+				"albumTitle":"Absent Light",
+				"year":2013,
+				"art":"https://upload.wikimedia.org/wikipedia/en/c/cc/Album_cover_for_Misery_Signals%27_album_%22Absent_Light%22.jpg"
+			}
+		]
+	}
+]
